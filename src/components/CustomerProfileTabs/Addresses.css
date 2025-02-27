@@ -1,0 +1,59 @@
+.addresses {
+  padding: 20px;
+}
+
+.addresses h3 {
+  margin-bottom: 20px;
+}
+
+.address-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.address-info p {
+  margin-bottom: 5px;
+}
+
+.address-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.address-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.new-address-form {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.new-address-form h4 {
+  margin-bottom: 15px;
+}
+
+.new-address-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.new-address-form input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

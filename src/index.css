@@ -1,0 +1,362 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sidebar a:hover {
+  background-color: #ccc;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Customer Info Tab Styles */
+.customer-info-tab {
+  padding: 20px;
+}
+
+.customer-info-tab h2 {
+  margin-bottom: 20px;
+}
+
+.search-section,
+.form-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.search-section input[type="email"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-section button {
+  padding: 8px 12px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-section button:hover {
+  background-color: #4cae4c;
+}
+
+.search-results {
+  margin-top: 10px;
+}
+
+.search-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-results li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.search-results li:hover {
+  background-color: #f9f9f9;
+}
+
+.form-section label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="number"],
+.form-section select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-section button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Customer Profile Tab Styles */
+.customer-profile-tab {
+  padding: 20px;
+}
+
+.customer-profile-tab h2 {
+  margin-bottom: 20px;
+}
+
+.profile-tabs {
+  margin-bottom: 20px;
+}
+
+.profile-tabs button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.profile-tabs button:hover {
+  background-color: #e0e0e0;
+}
+
+.tab-content {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* Users Tab Styles */
+.users-tab {
+  padding: 20px;
+}
+
+.users-tab h2 {
+  margin-bottom: 20px;
+}
+
+.users-tab label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.users-tab input[type="email"],
+.users-tab input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.users-tab input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.users-tab button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.users-tab button:hover {
+  background-color: #0056b3;
+}
+
+/* Opt-In Tab Styles */
+.opt-in-tab {
+  padding: 20px;
+}
+
+.opt-in-tab h2 {
+  margin-bottom: 20px;
+}
+
+.opt-in-tab label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.opt-in-tab input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.opt-in-tab button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.opt-in-tab button:hover {
+  background-color: #0056b3;
+}
+
+/* Ticketing Tab Styles */
+.ticketing-tab {
+  padding: 20px;
+}
+
+.ticketing-tab h2 {
+  margin-bottom: 20px;
+}
+
+.ticketing-tab .search-section input[type="email"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.ticketing-tab .search-section button {
+  padding: 8px 12px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ticketing-tab .search-section button:hover {
+  background-color: #4cae4c;
+}
+
+.ticketing-tab .customer-details {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.ticketing-tab .purchase-section {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.ticketing-tab .purchase-section label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.ticketing-tab .purchase-section select,
+.ticketing-tab .purchase-section input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ticketing-tab .purchase-section button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ticketing-tab .purchase-section button:hover {
+  background-color: #0056b3;
+}
+
+/* Performance Tab Styles */
+.performance-tab {
+  padding: 20px;
+}
+
+.performance-tab h2 {
+  margin-bottom: 20px;
+}
+
+.performance-tabs {
+  margin-bottom: 20px;
+}
+
+.performance-tabs button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.performance-tabs button:hover {
+  background-color: #e0e0e0;
+}

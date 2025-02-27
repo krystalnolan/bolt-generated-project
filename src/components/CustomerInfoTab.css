@@ -1,0 +1,140 @@
+.customer-info-tab {
+  padding: 20px;
+}
+
+.customer-info-tab h2 {
+  margin-bottom: 20px;
+}
+
+.search-section,
+.form-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.search-section input[type="email"] {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-section button {
+  padding: 8px 12px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.search-section button:hover {
+  background-color: #4cae4c;
+}
+
+.search-results {
+  margin-top: 10px;
+}
+
+.search-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.search-results li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.search-results li:hover {
+  background-color: #f9f9f9;
+}
+
+.form-section label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="number"],
+.form-section select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-section button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #0056b3;
+}
+
+.phone-group {
+  display: flex;
+  gap: 10px; /* Adjust the spacing as needed */
+  margin-bottom: 10px;
+}
+
+.phone-group .form-group {
+  flex: 1; /* Distribute space evenly */
+}
+
+.address-group {
+  display: flex;
+  gap: 10px; /* Adjust the spacing as needed */
+  margin-bottom: 10px;
+}
+
+.address-group .form-group {
+  flex: 1; /* Distribute space evenly */
+}
+
+.search-section button {
+  padding: 8px 12px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px; /* Add some spacing between the buttons */
+}
+
+.search-section button:hover {
+  background-color: #4cae4c;
+}
+
+.all-customers {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.all-customers ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.all-customers li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
